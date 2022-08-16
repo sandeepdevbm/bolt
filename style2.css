@@ -1,0 +1,162 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.logo_img{
+    height: 20px;
+}
+.green-header{
+    color: #249e64 !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+.header-2{
+    background-color: #ffff !important;
+}
+.header-2-dropdowns{
+    color: black !important;
+    margin-left: 2vw;
+}
+.brand-name{
+    height: 45px;
+    margin-left: 20px;
+}
+.letter-sizing{
+    font-size: 14px !important;
+}
+.heading1{
+    font-size:65px;
+    color: #ffff;
+    font-family: var(--bs-font-sans-serif);
+}
+.play-store{
+    height: 60px;
+}
+.grid-1{
+    box-sizing: border-box;
+    background-size: cover;
+}
+.pic-1 img{
+    object-fit:cover;
+}
+.grid-1{
+    height:130vh;
+}
+.background1{
+    height: fit-content;
+    background-image: url("./background.jpg");
+    width: auto;
+    background-size: cover;
+    padding: 40px;
+}
+.sign-up-button{
+    border: none;
+    border-radius: 30px;
+    height: 55px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 100px;
+
+}
+.blue-text{
+    color: #ffff;
+    padding-left: 150px;
+}
+.images{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 90px;
+}
+
+.phone-img{
+    object-fit:cover;
+    object-position: center;
+}
+.get-a-ride{
+    padding-top: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.icon{
+    height: 30px;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .header-1{
+        display: none ;
+    }
+    br{
+        display: none;
+    }
+    .grid-1 {
+        height: 400px;
+    }
+    .pic-1{
+        object-fit: contain;
+        width: 100%;  
+     }
+    .pic-1 img{
+        object-fit: cover;
+        width: 100%;
+        height: 400px !important;
+        object-position: initial;
+     }
+     .heading1{
+        font-size:40px;
+
+    }
+    .phone-img{
+        object-fit: contain;
+        order: 1;
+    }
+    .get-a-ride{
+        order: 2;
+        padding-top: 0px;
+    }
+    
+    
+     
+}
+@media (max-width: 767px){
+    .images{
+        flex-direction: column;
+        margin-top: -90px;
+    }
+    .earn{
+        padding-left: 0px;
+    }
+    .background1{
+        text-align: center;
+    }
+    .sign-up-button{
+        margin-left: 0;
+        object-fit: contain;
+    }
+    .blue-text{
+        color: #ffff;
+        padding-left:30px;
+    }
+    .img-heading{
+        display: flex;
+    }
+    .i1{
+        height: 40px;
+        margin-top: 30px;
+    }
+    .i2{
+        height: 70px;
+    }
+    .i3{
+        height: 100px;
+        margin-left: 10px;
+    }
+}
